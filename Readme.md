@@ -1,7 +1,7 @@
 # Личный проект «Что посмотреть» [![Build status][travis-image]][travis-url]
 
 * Студент: [Марина Целищева](https://up.htmlacademy.ru/react/3/user/587145).
-* Наставник: `Неизвестно`.
+* Наставник: [Николай Папаха](https://up.htmlacademy.ru/react/3/user/1224641).
 
 ---
 
