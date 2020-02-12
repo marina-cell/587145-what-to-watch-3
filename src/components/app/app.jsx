@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Main from "../main/main.jsx";
 
-const onHeaderClick = () => {};
+const handleHeaderClick = () => {};
 
 const App = (props) => {
   const {title, genre, year, movies} = props;
@@ -13,7 +13,7 @@ const App = (props) => {
       genre={genre}
       year={year}
       movies={movies}
-      onHeaderClick={onHeaderClick}
+      onHeaderClick={handleHeaderClick}
     />
   );
 };

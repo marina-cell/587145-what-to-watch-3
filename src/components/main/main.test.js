@@ -10,7 +10,7 @@ const PromoMovie = {
 
 const movies = [`Fantastic Beasts`, `Bohemian Rhapsody`, `Macbeth`];
 
-const onHeaderClick = () => {};
+const handleHeaderClick = () => {};
 
 it(`Should render main page`, () => {
   const tree = renderer
@@ -19,7 +19,7 @@ it(`Should render main page`, () => {
       genre={PromoMovie.genre}
       year={PromoMovie.year}
       movies={movies}
-      onHeaderClick={onHeaderClick}
+      onHeaderClick={handleHeaderClick}
     />)
     .toJSON();
 
