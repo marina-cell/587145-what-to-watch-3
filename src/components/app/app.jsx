@@ -2,11 +2,19 @@ import React from "react";
 import PropTypes from "prop-types";
 import Main from "../main/main.jsx";
 
+const onHeaderClick = () => {};
+
 const App = (props) => {
   const {title, genre, year, movies} = props;
 
   return (
-    <Main title={title} genre={genre} year={year} movies={movies}/>
+    <Main
+      title={title}
+      genre={genre}
+      year={year}
+      movies={movies}
+      onHeaderClick={onHeaderClick}
+    />
   );
 };
 

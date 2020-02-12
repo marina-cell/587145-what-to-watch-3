@@ -20,6 +20,7 @@ Array [
     </h1>
     <header
       className="page-header movie-card__head"
+      onClick={[Function]}
     >
       <div
         className="logo"
